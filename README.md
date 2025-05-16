@@ -40,3 +40,5 @@ En la evaluación final con el conjunto de datos de prueba de la competencia, se
 ##   Conclusiones
 
 Este proyecto demuestra un enfoque integral para la predicción del gasto de calorías, desde el análisis exploratorio de datos y la ingeniería de características hasta la implementación y comparación de modelos de machine learning y redes neuronales. Aunque la combinación de modelos no resultó en una mejora sustancial en este caso, el proyecto proporciona valiosas lecciones sobre el proceso de modelado y la importancia de la experimentación.
+
+** Nota sobre la visualización en GitHub: Este notebook puede mostrar el error 'Invalid Notebook' debido al uso de elementos interactivos (widgets) durante el análisis en Colab. GitHub no renderiza estos elementos de forma nativa. El código y los resultados estáticos son visibles, pero la interactividad se experimenta mejor al ejecutar el notebook en un entorno Jupyter o Colab.
