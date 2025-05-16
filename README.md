@@ -12,14 +12,14 @@ El desafío principal consistió en construir un modelo capaz de predecir la can
 
 Este repositorio incluye los siguientes notebooks, que exploran diferentes estrategias para el análisis de datos, la ingeniería de características y el modelado:
 
-1.  **`eda_modelado_ml_pce.ipynb`**:
+1.  **`eda_modelado_ml_pce.ipynb`**: https://colab.research.google.com/drive/1fRNNKYtLuJ8SsO03hZkrQOq4XO0ey9He?usp=sharing
     * **Análisis Exploratorio de Datos (EDA):** Se realiza un EDA exhaustivo para identificar las características más relevantes para la predicción del gasto de calorías y explorar las relaciones entre las variables, incluyendo el impacto de las variables binarias en la quema de calorías.
     * **Ingeniería de Características:** Se generan nuevas características a través de combinaciones de variables existentes, segmentación por grupos de edad, cálculo del índice de masa corporal (IMC) y otras transformaciones relevantes.
     * **Modelado con Machine Learning:** Se implementan y comparan tres modelos de ML: XGBoost (XGB), LightGBM (LGBM) y Random Forest (RF). Se utiliza la búsqueda de cuadrícula (`GridSearchCV`) para optimizar los hiperparámetros de los modelos.
     * **Análisis de Importancia de Variables:** Se determina la importancia de cada característica en las predicciones del mejor modelo de ML.
     * **Reducción de Dimensionalidad:** Se aplican técnicas de reducción de dimensionalidad para crear dos componentes principales, buscando capturar información relevante y mejorar las predicciones al complementar las variables más importantes.
 
-2.  **`redes_neuronales_pytorch_pce.ipynb`**:
+2.  **`redes_neuronales_pytorch_pce.ipynb`**: https://colab.research.google.com/drive/17ZcDPcrJ6XYbxcuuJId-NPTywirKTLxe?usp=sharing
     * **Implementación con PyTorch:** Se desarrollan modelos de redes neuronales utilizando la librería PyTorch para predecir el gasto de calorías.
     * **Reutilización de Ingeniería de Características:** Se aprovechan las características generadas en el primer archivo para entrenar las redes neuronales.
     * **Entrenamiento y Evaluación:** Se entrenan las redes neuronales y se evalúan sus resultados.
